@@ -1,0 +1,57 @@
+mkdir test
+mkdir bin
+chdir bin
+mkfile program
+mkfile datafile
+mkdir sys
+chdir sys
+mkfile systemfile
+chdir ../..
+mkdir users
+chdir users
+mkfile userlist
+chdir ..
+ls
+mkfile test
+mkfile temp
+ls
+chdir users
+ls
+mkdir keith
+ls
+chdir keith
+mkfile keith
+mkfile data1
+mkfile test1
+mkdir keithsub
+chdir keithsub
+mkfile test2
+mkdir keithsubsub
+chdir keithsubsub
+mkfile test3
+pwd
+chdir /
+lsr
+chdir ..
+pwd
+chdir users/keith/keithsub/keithsubsub/
+ls
+chdir /
+lsr
+chdir users
+mkdir kermit
+chdir kermit
+mkfile data
+chdir .
+pwd
+chdir /bin
+chdir ..
+chdir ..
+chdir users
+ls
+lsr
+rmdir keith
+lsr
+chdir ..
+lsr
+Q

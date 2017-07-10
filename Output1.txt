@@ -1,0 +1,307 @@
+*mkdir livingOrganism
+ Successfully created  directory  named livingOrganism to file system. 
+ 
+*chdir /livingOrganism/
+Successfully changed directory to livingOrganism.
+
+*mkdir plantKingdom
+ Successfully created  directory  named plantKingdom to file system. 
+ 
+*mkdir animalKingdom
+ Successfully created  directory  named animalKingdom to file system. 
+ 
+*mkdir fungiKingdom
+ Successfully created  directory  named fungiKingdom to file system. 
+ 
+*pwd
+/livingOrganism
+
+*ls
+animalKingdom/
+fungiKingdom/
+plantKingdom/
+
+*lsr
+animalKingdom/
+fungiKingdom/
+plantKingdom/
+
+*chdir .
+Successfully changed directory to livingOrganism.
+
+*mkdir protistKingdom
+ Successfully created  directory  named protistKingdom to file system. 
+ 
+*mkdir moneranKingdom
+ Successfully created  directory  named moneranKingdom to file system. 
+ 
+*mkfile species
+ Successfully created  file named species to file system. 
+ 
+*mkfile names
+ Successfully created  file named names to file system. 
+ 
+*lsr
+animalKingdom/
+fungiKingdom/
+moneranKingdom/
+names 
+plantKingdom/
+protistKingdom/
+species 
+
+*ls
+animalKingdom/
+fungiKingdom/
+moneranKingdom/
+names 
+plantKingdom/
+protistKingdom/
+species 
+
+*chdir plantKingdom
+Successfully changed directory to plantKingdom.
+
+*mkfile sandalwood
+ Successfully created  file named sandalwood to file system. 
+ 
+*mkfile teak	
+ Successfully created  file named teak	 to file system. 
+ 
+*mkdir corniferous
+ Successfully created  directory  named corniferous to file system. 
+ 
+*mkdir tropical
+ Successfully created  directory  named tropical to file system. 
+ 
+*pwd
+/livingOrganism/plantKingdom
+
+*lsr
+corniferous/
+sandalwood 
+teak	 
+tropical/
+
+*chdir /../livingOrganism/./plantKingdom/tropical/
+Successfully changed directory to tropical.
+
+*mkdir hillplants
+ Successfully created  directory  named hillplants to file system. 
+ 
+*ls
+hillplants/
+
+*chdir /
+Successfully changed directory to /.
+
+*lsr
+livingOrganism/
+   animalKingdom/
+   fungiKingdom/
+   moneranKingdom/
+   names 
+   plantKingdom/
+      corniferous/
+      sandalwood 
+      teak	 
+      tropical/
+         hillplants/
+   protistKingdom/
+   species 
+
+*rmfile plant
+ Can't remove file named plant. No such file exists !
+
+*rmfile names
+ Can't remove file named names. No such file exists !
+
+*chdir livingOrganism/animalKingdom/
+Successfully changed directory to animalKingdom.
+
+*mkdir mammals
+ Successfully created  directory  named mammals to file system. 
+ 
+*mkdir insects
+ Successfully created  directory  named insects to file system. 
+ 
+*mkdir reptiles
+ Successfully created  directory  named reptiles to file system. 
+ 
+*mkfile vertebrates
+ Successfully created  file named vertebrates to file system. 
+ 
+*pwd
+/livingOrganism/animalKingdom
+
+*chdir ../fungiKingdom/
+Successfully changed directory to fungiKingdom.
+
+*mkdir diatoms
+ Successfully created  directory  named diatoms to file system. 
+ 
+*mkfile mushrooms
+ Successfully created  file named mushrooms to file system. 
+ 
+*mkfile bacteria
+ Successfully created  file named bacteria to file system. 
+ 
+*lsr
+bacteria 
+diatoms/
+mushrooms 
+
+*rmfile bacteria
+Successfully removed file named bacteria from the file system
+
+*rmdir insects
+ Can't remove directory named insects. No such directory exists !
+
+*pwd
+/livingOrganism/fungiKingdom
+
+*ls
+diatoms/
+mushrooms 
+
+*chdir /livingOrganism/
+Successfully changed directory to livingOrganism.
+
+*chdir protistKingdom
+Successfully changed directory to protistKingdom.
+
+*mkdir sacordinians
+ Successfully created  directory  named sacordinians to file system. 
+ 
+*mkdir zooflagellates
+ Successfully created  directory  named zooflagellates to file system. 
+ 
+*mkfile ciliaphorans
+ Successfully created  file named ciliaphorans to file system. 
+ 
+*mkfile sporozoans
+ Successfully created  file named sporozoans to file system. 
+ 
+*pwd
+/livingOrganism/protistKingdom
+
+*chdir sacordinians
+Successfully changed directory to sacordinians.
+
+*mkfile amoeba
+ Successfully created  file named amoeba to file system. 
+ 
+*mkfile foramini
+ Successfully created  file named foramini to file system. 
+ 
+*chdir flagella
+Failed to change Directory !
+
+*rmdir flagella
+ Can't remove directory named flagella. No such directory exists !
+
+*makeit
+Invalid Command !
+
+*chdir amoeba
+Failed to change Directory !
+
+*chdir /livingOrganism/plantKingdom/tropical/hillplants/
+Successfully changed directory to hillplants.
+
+*mkfile redwood
+ Successfully created  file named redwood to file system. 
+ 
+*mkfile euclyptus
+ Successfully created  file named euclyptus to file system. 
+ 
+*mkfile birch
+ Successfully created  file named birch to file system. 
+ 
+*ls
+birch 
+euclyptus 
+redwood 
+
+*chdir ../../../
+Successfully changed directory to livingOrganism.
+
+*rmdir fungiKingdom
+Successfully removed directory named fungiKingdom from the file system
+
+*lsr
+animalKingdom/
+   insects/
+   mammals/
+   reptiles/
+   vertebrates 
+moneranKingdom/
+names 
+plantKingdom/
+   corniferous/
+   sandalwood 
+   teak	 
+   tropical/
+      hillplants/
+         birch 
+         euclyptus 
+         redwood 
+protistKingdom/
+   ciliaphorans 
+   sacordinians/
+      amoeba 
+      foramini 
+   sporozoans 
+   zooflagellates/
+species 
+
+*rmdir protistKingdom
+Successfully removed directory named protistKingdom from the file system
+
+*lsr
+animalKingdom/
+   insects/
+   mammals/
+   reptiles/
+   vertebrates 
+moneranKingdom/
+names 
+plantKingdom/
+   corniferous/
+   sandalwood 
+   teak	 
+   tropical/
+      hillplants/
+         birch 
+         euclyptus 
+         redwood 
+species 
+
+*chdir /livingOrganism/plantKingdom
+Successfully changed directory to plantKingdom.
+
+*Q
+ *chdir /
+Successfully changed directoty to /
+ *pwd
+/
+ *lsr
+livingOrganism/
+   animalKingdom/
+      insects/
+      mammals/
+      reptiles/
+      vertebrates 
+   moneranKingdom/
+   names 
+   plantKingdom/
+      corniferous/
+      sandalwood 
+      teak	 
+      tropical/
+         hillplants/
+            birch 
+            euclyptus 
+            redwood 
+   species 
+

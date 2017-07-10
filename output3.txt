@@ -1,0 +1,248 @@
+*mkdir test
+ Successfully created  directory  named test to file system. 
+ 
+*mkdir bin
+ Successfully created  directory  named bin to file system. 
+ 
+*chdir bin
+Successfully changed directory to bin.
+
+*mkfile program
+ Successfully created  file named program to file system. 
+ 
+*mkfile datafile
+ Successfully created  file named datafile to file system. 
+ 
+*mkdir sys
+ Successfully created  directory  named sys to file system. 
+ 
+*chdir sys
+Successfully changed directory to sys.
+
+*mkfile systemfile
+ Successfully created  file named systemfile to file system. 
+ 
+*chdir ../..
+Successfully changed directory to /.
+
+*mkdir users
+ Successfully created  directory  named users to file system. 
+ 
+*chdir users
+Successfully changed directory to users.
+
+*mkfile userlist
+ Successfully created  file named userlist to file system. 
+ 
+*chdir ..
+Successfully changed directory to /.
+
+*ls
+bin/
+test/
+users/
+
+*mkfile test
+ Can't create file named test. Duplicate names not allowed !!
+ 
+*mkfile temp
+ Successfully created  file named temp to file system. 
+ 
+*ls
+bin/
+temp 
+test/
+users/
+
+*chdir users
+Successfully changed directory to users.
+
+*ls
+userlist 
+
+*mkdir keith
+ Successfully created  directory  named keith to file system. 
+ 
+*ls
+keith/
+userlist 
+
+*chdir keith
+Successfully changed directory to keith.
+
+*mkfile keith
+ Successfully created  file named keith to file system. 
+ 
+*mkfile data1
+ Successfully created  file named data1 to file system. 
+ 
+*mkfile test1
+ Successfully created  file named test1 to file system. 
+ 
+*mkdir keithsub
+ Successfully created  directory  named keithsub to file system. 
+ 
+*chdir keithsub
+Successfully changed directory to keithsub.
+
+*mkfile test2
+ Successfully created  file named test2 to file system. 
+ 
+*mkdir keithsubsub
+ Successfully created  directory  named keithsubsub to file system. 
+ 
+*chdir keithsubsub
+Successfully changed directory to keithsubsub.
+
+*mkfile test3
+ Successfully created  file named test3 to file system. 
+ 
+*pwd
+/users/keith/keithsub/keithsubsub
+
+*chdir /
+Successfully changed directory to /.
+
+*lsr
+bin/
+   datafile 
+   program 
+   sys/
+      systemfile 
+temp 
+test/
+users/
+   keith/
+      data1 
+      keith 
+      keithsub/
+         keithsubsub/
+            test3 
+         test2 
+      test1 
+   userlist 
+
+*chdir ..
+Successfully changed directory to /.
+
+*pwd
+/
+
+*chdir users/keith/keithsub/keithsubsub/
+Successfully changed directory to keithsubsub.
+
+*ls
+test3 
+
+*chdir /
+Successfully changed directory to /.
+
+*lsr
+bin/
+   datafile 
+   program 
+   sys/
+      systemfile 
+temp 
+test/
+users/
+   keith/
+      data1 
+      keith 
+      keithsub/
+         keithsubsub/
+            test3 
+         test2 
+      test1 
+   userlist 
+
+*chdir users
+Successfully changed directory to users.
+
+*mkdir kermit
+ Successfully created  directory  named kermit to file system. 
+ 
+*chdir kermit
+Successfully changed directory to kermit.
+
+*mkfile data
+ Successfully created  file named data to file system. 
+ 
+*chdir .
+Successfully changed directory to kermit.
+
+*pwd
+/users/kermit
+
+*chdir /bin
+Successfully changed directory to bin.
+
+*chdir ..
+Successfully changed directory to /.
+
+*chdir ..
+Successfully changed directory to /.
+
+*chdir users
+Successfully changed directory to users.
+
+*ls
+keith/
+kermit/
+userlist 
+
+*lsr
+keith/
+   data1 
+   keith 
+   keithsub/
+      keithsubsub/
+         test3 
+      test2 
+   test1 
+kermit/
+   data 
+userlist 
+
+*rmdir keith
+Successfully removed directory named keith from the file system
+
+*lsr
+kermit/
+   data 
+userlist 
+
+*chdir ..
+Successfully changed directory to /.
+
+*lsr
+bin/
+   datafile 
+   program 
+   sys/
+      systemfile 
+temp 
+test/
+users/
+   kermit/
+      data 
+   userlist 
+
+*Q
+ *chdir /
+Successfully changed directoty to /
+ *pwd
+/
+ *lsr
+bin/
+   datafile 
+   program 
+   sys/
+      systemfile 
+temp 
+test/
+users/
+   kermit/
+      data 
+   userlist 
+

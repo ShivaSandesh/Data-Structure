@@ -1,0 +1,70 @@
+mkdir livingOrganism
+chdir /livingOrganism/
+mkdir plantKingdom
+mkdir animalKingdom
+mkdir fungiKingdom
+pwd
+ls
+lsr
+chdir .
+mkdir protistKingdom
+mkdir moneranKingdom
+mkfile species
+mkfile names
+lsr
+ls
+chdir plantKingdom
+mkfile sandalwood
+mkfile teak	
+mkdir corniferous
+mkdir tropical
+pwd
+lsr
+chdir /../livingOrganism/./plantKingdom/tropical/
+mkdir hillplants
+ls
+chdir /
+lsr
+rmfile plant
+rmfile names
+chdir livingOrganism/animalKingdom/
+mkdir mammals
+mkdir insects
+mkdir reptiles
+mkfile vertebrates
+pwd
+chdir ../fungiKingdom/
+mkdir diatoms
+mkfile mushrooms
+mkfile bacteria
+lsr
+rmfile bacteria
+rmdir insects
+pwd
+ls
+chdir /livingOrganism/
+chdir protistKingdom
+mkdir sacordinians
+mkdir zooflagellates
+mkfile ciliaphorans
+mkfile sporozoans
+pwd
+chdir sacordinians
+mkfile amoeba
+mkfile foramini
+chdir flagella
+rmdir flagella
+makeit
+chdir amoeba
+chdir /livingOrganism/plantKingdom/tropical/hillplants/
+mkfile redwood
+mkfile euclyptus
+mkfile birch
+ls
+chdir ../../../
+rmdir fungiKingdom
+lsr
+rmdir protistKingdom
+lsr
+chdir /livingOrganism/plantKingdom
+Q

@@ -1,0 +1,88 @@
+mkdir chabotCollege
+chdir chabotCollege
+mkdir employees
+mkfile affiliations 
+ls
+mkdir divisions
+mkfile payRate
+mkfile programs
+mkdir scholarships
+chdir divisions
+pwd
+lsr
+rmfile names
+mkdir academics
+mkdir financialAid
+mkdir admissions
+mkfile counseling
+mkfile resources
+chdir /chabotCollege/divisions/academics/
+mkdir humanities
+mkdir science
+mkdir business
+mkdir socialScience
+mkdir health
+ls
+mkdir languageArts
+mkdir technology
+lsr 
+rmdir technology
+lsr
+chdir humanities
+mkdir music
+mkfile philosphy
+mkfile archtitecture
+mkdir art
+chdir music
+mkfile theory
+mkfile performance
+pwd
+chdir /chabotCollege/divisions/academics/science/
+mkdir csci
+mkdir math
+mkdir chemistry
+mkdir physics
+chdir csci
+mkfile python
+mkfile java
+mkdir c++Courses
+chdir c++Courses
+mkfile csci14
+mkfile csci15
+mkfile csci20
+mkfile csci21
+chdir ../../chemistry
+mkfile chem1A
+mkfile chem1b
+mkfile o-chem
+chdir ../math
+mkfile math3
+mkfile math6
+mkfile math8
+mkfile math4
+mkfile math55
+chdir /../chabotCollege/divisions/academics/science/math/math8
+pwd
+chdir /
+lsr
+chdir /chabotCollege/divisions/academics/socialScience
+mkdir psychology
+mkdir sociology
+mkfile physiology
+mkfile criminalJustice
+mkfile psych60
+mkfile psych25
+mkfile psych3
+chdir ..
+rmdir humanities
+chdir ../science/math
+rmfile math55
+rmfile math3
+chdir /
+lsr
+chdir chabotCollege/divisions/academics/
+rmdir socialScience
+pwd
+lsr
+pwd
+Q

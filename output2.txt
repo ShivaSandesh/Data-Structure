@@ -1,0 +1,424 @@
+*mkdir chabotCollege
+ Successfully created  directory  named chabotCollege to file system. 
+ 
+*chdir chabotCollege
+Successfully changed directory to chabotCollege.
+
+*mkdir employees
+ Successfully created  directory  named employees to file system. 
+ 
+*mkfile affiliations 
+ Successfully created  file named affiliations to file system. 
+ 
+*ls
+affiliations 
+employees/
+
+*mkdir divisions
+ Successfully created  directory  named divisions to file system. 
+ 
+*mkfile payRate
+ Successfully created  file named payRate to file system. 
+ 
+*mkfile programs
+ Successfully created  file named programs to file system. 
+ 
+*mkdir scholarships
+ Successfully created  directory  named scholarships to file system. 
+ 
+*chdir divisions
+Successfully changed directory to divisions.
+
+*pwd
+/chabotCollege/divisions
+
+*lsr
+
+*rmfile names
+ Can't remove file named names. Current Directory is empty !
+
+*mkdir academics
+ Successfully created  directory  named academics to file system. 
+ 
+*mkdir financialAid
+ Successfully created  directory  named financialAid to file system. 
+ 
+*mkdir admissions
+ Successfully created  directory  named admissions to file system. 
+ 
+*mkfile counseling
+ Successfully created  file named counseling to file system. 
+ 
+*mkfile resources
+ Successfully created  file named resources to file system. 
+ 
+*chdir /chabotCollege/divisions/academics/
+Successfully changed directory to academics.
+
+*mkdir humanities
+ Successfully created  directory  named humanities to file system. 
+ 
+*mkdir science
+ Successfully created  directory  named science to file system. 
+ 
+*mkdir business
+ Successfully created  directory  named business to file system. 
+ 
+*mkdir socialScience
+ Successfully created  directory  named socialScience to file system. 
+ 
+*mkdir health
+ Successfully created  directory  named health to file system. 
+ 
+*ls
+business/
+health/
+humanities/
+science/
+socialScience/
+
+*mkdir languageArts
+ Successfully created  directory  named languageArts to file system. 
+ 
+*mkdir technology
+ Successfully created  directory  named technology to file system. 
+ 
+*lsr 
+business/
+health/
+humanities/
+languageArts/
+science/
+socialScience/
+technology/
+
+*rmdir technology
+Successfully removed directory named technology from the file system
+
+*lsr
+business/
+health/
+humanities/
+languageArts/
+science/
+socialScience/
+
+*chdir humanities
+Successfully changed directory to humanities.
+
+*mkdir music
+ Successfully created  directory  named music to file system. 
+ 
+*mkfile philosphy
+ Successfully created  file named philosphy to file system. 
+ 
+*mkfile archtitecture
+ Successfully created  file named archtitecture to file system. 
+ 
+*mkdir art
+ Successfully created  directory  named art to file system. 
+ 
+*chdir music
+Successfully changed directory to music.
+
+*mkfile theory
+ Successfully created  file named theory to file system. 
+ 
+*mkfile performance
+ Successfully created  file named performance to file system. 
+ 
+*pwd
+/chabotCollege/divisions/academics/humanities/music
+
+*chdir /chabotCollege/divisions/academics/science/
+Successfully changed directory to science.
+
+*mkdir csci
+ Successfully created  directory  named csci to file system. 
+ 
+*mkdir math
+ Successfully created  directory  named math to file system. 
+ 
+*mkdir chemistry
+ Successfully created  directory  named chemistry to file system. 
+ 
+*mkdir physics
+ Successfully created  directory  named physics to file system. 
+ 
+*chdir csci
+Successfully changed directory to csci.
+
+*mkfile python
+ Successfully created  file named python to file system. 
+ 
+*mkfile java
+ Successfully created  file named java to file system. 
+ 
+*mkdir c++Courses
+ Successfully created  directory  named c++Courses to file system. 
+ 
+*chdir c++Courses
+Successfully changed directory to c++Courses.
+
+*mkfile csci14
+ Successfully created  file named csci14 to file system. 
+ 
+*mkfile csci15
+ Successfully created  file named csci15 to file system. 
+ 
+*mkfile csci20
+ Successfully created  file named csci20 to file system. 
+ 
+*mkfile csci21
+ Successfully created  file named csci21 to file system. 
+ 
+*chdir ../../chemistry
+Successfully changed directory to chemistry.
+
+*mkfile chem1A
+ Successfully created  file named chem1A to file system. 
+ 
+*mkfile chem1b
+ Successfully created  file named chem1b to file system. 
+ 
+*mkfile o-chem
+ Successfully created  file named o-chem to file system. 
+ 
+*chdir ../math
+Successfully changed directory to math.
+
+*mkfile math3
+ Successfully created  file named math3 to file system. 
+ 
+*mkfile math6
+ Successfully created  file named math6 to file system. 
+ 
+*mkfile math8
+ Successfully created  file named math8 to file system. 
+ 
+*mkfile math4
+ Successfully created  file named math4 to file system. 
+ 
+*mkfile math55
+ Successfully created  file named math55 to file system. 
+ 
+*chdir /../chabotCollege/divisions/academics/science/math/math8
+Failed to change Directory !
+
+*pwd
+/chabotCollege/divisions/academics/science/math
+
+*chdir /
+Successfully changed directory to /.
+
+*lsr
+chabotCollege/
+   affiliations 
+   divisions/
+      academics/
+         business/
+         health/
+         humanities/
+            archtitecture 
+            art/
+            music/
+               performance 
+               theory 
+            philosphy 
+         languageArts/
+         science/
+            chemistry/
+               chem1A 
+               chem1b 
+               o-chem 
+            csci/
+               c++Courses/
+                  csci14 
+                  csci15 
+                  csci20 
+                  csci21 
+               java 
+               python 
+            math/
+               math3 
+               math4 
+               math55 
+               math6 
+               math8 
+            physics/
+         socialScience/
+      admissions/
+      counseling 
+      financialAid/
+      resources 
+   employees/
+   payRate 
+   programs 
+   scholarships/
+
+*chdir /chabotCollege/divisions/academics/socialScience
+Successfully changed directory to socialScience.
+
+*mkdir psychology
+ Successfully created  directory  named psychology to file system. 
+ 
+*mkdir sociology
+ Successfully created  directory  named sociology to file system. 
+ 
+*mkfile physiology
+ Successfully created  file named physiology to file system. 
+ 
+*mkfile criminalJustice
+ Successfully created  file named criminalJustice to file system. 
+ 
+*mkfile psych60
+ Successfully created  file named psych60 to file system. 
+ 
+*mkfile psych25
+ Successfully created  file named psych25 to file system. 
+ 
+*mkfile psych3
+ Successfully created  file named psych3 to file system. 
+ 
+*chdir ..
+Successfully changed directory to academics.
+
+*rmdir humanities
+Successfully removed directory named humanities from the file system
+
+*chdir ../science/math
+Failed to change Directory !
+
+*rmfile math55
+ Can't remove file named math55. No such file exists !
+
+*rmfile math3
+ Can't remove file named math3. No such file exists !
+
+*chdir /
+Successfully changed directory to /.
+
+*lsr
+chabotCollege/
+   affiliations 
+   divisions/
+      academics/
+         business/
+         health/
+         languageArts/
+         science/
+            chemistry/
+               chem1A 
+               chem1b 
+               o-chem 
+            csci/
+               c++Courses/
+                  csci14 
+                  csci15 
+                  csci20 
+                  csci21 
+               java 
+               python 
+            math/
+               math3 
+               math4 
+               math55 
+               math6 
+               math8 
+            physics/
+         socialScience/
+            criminalJustice 
+            physiology 
+            psych25 
+            psych3 
+            psych60 
+            psychology/
+            sociology/
+      admissions/
+      counseling 
+      financialAid/
+      resources 
+   employees/
+   payRate 
+   programs 
+   scholarships/
+
+*chdir chabotCollege/divisions/academics/
+Successfully changed directory to academics.
+
+*rmdir socialScience
+Successfully removed directory named socialScience from the file system
+
+*pwd
+/chabotCollege/divisions/academics
+
+*lsr
+business/
+health/
+languageArts/
+science/
+   chemistry/
+      chem1A 
+      chem1b 
+      o-chem 
+   csci/
+      c++Courses/
+         csci14 
+         csci15 
+         csci20 
+         csci21 
+      java 
+      python 
+   math/
+      math3 
+      math4 
+      math55 
+      math6 
+      math8 
+   physics/
+
+*pwd
+/chabotCollege/divisions/academics
+
+*Q
+ *chdir /
+Successfully changed directoty to /
+ *pwd
+/
+ *lsr
+chabotCollege/
+   affiliations 
+   divisions/
+      academics/
+         business/
+         health/
+         languageArts/
+         science/
+            chemistry/
+               chem1A 
+               chem1b 
+               o-chem 
+            csci/
+               c++Courses/
+                  csci14 
+                  csci15 
+                  csci20 
+                  csci21 
+               java 
+               python 
+            math/
+               math3 
+               math4 
+               math55 
+               math6 
+               math8 
+            physics/
+      admissions/
+      counseling 
+      financialAid/
+      resources 
+   employees/
+   payRate 
+   programs 
+   scholarships/
+
